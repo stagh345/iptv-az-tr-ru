@@ -9,6 +9,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: iptv-playlist-update
+  cancel-in-progress: false
+
 jobs:
   update:
     runs-on: ubuntu-latest
@@ -35,11 +39,13 @@ jobs:
           git config user.name "IPTV Auto Updater"
           git config user.email "actions@github.com"
 
-          git add docs/
+          git add docs/index.m3u
+          git add docs/index.m3u8
+          git add docs/test.m3u8
 
           if ! git diff --cached --quiet; then
             git commit -m "Auto-update IPTV playlists"
             git push
           else
-            echo "No playlist changes."
+            echo "No playlist changes detected."
           fi
