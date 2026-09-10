@@ -4,163 +4,211 @@ import urllib.request
 from datetime import datetime, timezone
 
 SOURCES = [
-    # AZERBAIJAN
-    (
-        "Azerbaijan - Country",
-        "https://iptv-org.github.io/iptv/countries/az.m3u"
-    ),
-    (
-        "Azerbaijan - Language",
-        "https://iptv-org.github.io/iptv/languages/aze.m3u"
-    ),
+    ("Azerbaijan", "https://iptv-org.github.io/iptv/countries/az.m3u"),
+    ("Azerbaijan", "https://iptv-org.github.io/iptv/languages/aze.m3u"),
 
-    # TURKIYE
-    (
-        "Turkiye - Country",
-        "https://iptv-org.github.io/iptv/countries/tr.m3u"
-    ),
-    (
-        "Turkiye - Language",
-        "https://iptv-org.github.io/iptv/languages/tur.m3u"
-    ),
-    (
-        "Turkiye - TURKTV",
-        "https://itasli.github.io/TURKTV/index.m3u"
-    ),
+    ("Turkiye", "https://iptv-org.github.io/iptv/countries/tr.m3u"),
+    ("Turkiye", "https://iptv-org.github.io/iptv/languages/tur.m3u"),
+    ("Turkiye", "https://itasli.github.io/TURKTV/index.m3u"),
 
-    # RUSSIA
-    (
-        "Russia - Country",
-        "https://iptv-org.github.io/iptv/countries/ru.m3u"
-    ),
-    (
-        "Russia - Language",
-        "https://iptv-org.github.io/iptv/languages/rus.m3u"
-    ),
+    ("Russia", "https://iptv-org.github.io/iptv/countries/ru.m3u"),
+    ("Russia", "https://iptv-org.github.io/iptv/languages/rus.m3u"),
 ]
 
-OUTPUT = "docs/index.m3u"
+OUTPUT_M3U = "docs/index.m3u"
+OUTPUT_M3U8 = "docs/index.m3u8"
+TEST_OUTPUT = "docs/test.m3u8"
 
 USER_AGENT = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
     "AppleWebKit/537.36 Chrome/152 Safari/537.36"
 )
 
+INVALID_EXTENSIONS = (
+    ".png", ".jpg", ".jpeg", ".gif",
+    ".webp", ".svg", ".ico"
+)
+
 
 def download(url):
-    request = urllib.request.Request(
+    req = urllib.request.Request(
         url,
-        headers={
-            "User-Agent": USER_AGENT,
-            "Accept": "*/*",
-        }
+        headers={"User-Agent": USER_AGENT}
     )
 
-    with urllib.request.urlopen(request, timeout=30) as response:
-        return response.read().decode("utf-8", errors="ignore")
+    with urllib.request.urlopen(req, timeout=30) as r:
+        return r.read().decode("utf-8-sig", errors="ignore")
 
 
-def parse_m3u(content):
+def valid_stream_url(url):
+    url_lower = url.lower().split("?")[0]
+
+    if url_lower.endswith(INVALID_EXTENSIONS):
+        return False
+
+    allowed = (
+        "http://",
+        "https://",
+        "rtmp://",
+        "rtsp://",
+        "rtp://",
+        "udp://",
+    )
+
+    return url.lower().startswith(allowed)
+
+
+def clean_name(name):
+    # control characters
+    name = re.sub(r"[\x00-\x1f\x7f]", "", name)
+
+    # OTTPlayer parserini sadələşdirmək üçün
+    name = name.replace(",", " - ")
+
+    return name.strip()
+
+
+def parse_playlist(content, country):
     lines = content.replace("\r\n", "\n").split("\n")
 
-    entries = []
-    current = []
+    channels = []
 
-    for raw_line in lines:
-        line = raw_line.strip()
+    current_name = None
+
+    for raw in lines:
+        line = raw.strip()
 
         if not line:
             continue
 
-        if line.startswith("#EXTM3U"):
-            continue
-
+        # Kanal adı
         if line.startswith("#EXTINF"):
-            current = [line]
-            continue
-
-        if current:
-            if line.startswith("#"):
-                current.append(line)
+            if "," not in line:
+                current_name = None
                 continue
 
-            # first non-comment line after EXTINF = stream URL
-            current.append(line)
+            current_name = clean_name(
+                line.split(",", 1)[1]
+            )
+            continue
 
-            entries.append({
-                "block": current.copy(),
-                "url": line
+        # Bütün #EXTVLCOPT, #KODIPROP və s. ignore edilir
+        if line.startswith("#"):
+            continue
+
+        # EXTINF-dən sonra gələn ilk real URL
+        if current_name and valid_stream_url(line):
+            channels.append({
+                "name": current_name,
+                "group": country,
+                "url": line.strip(),
             })
 
-            current = []
+            current_name = None
 
-    return entries
+    return channels
 
 
-def normalize_url(url):
-    return url.strip()
+def build_output(channels):
+    output = ["#EXTM3U"]
+
+    for ch in channels:
+        output.append(f'#EXTINF:0,{ch["name"]}')
+        output.append(f'#EXTGRP:{ch["group"]}')
+        output.append(ch["url"])
+
+    return "\n".join(output) + "\n"
 
 
 def main():
-    all_entries = []
+
+    all_channels = []
     seen_urls = set()
 
-    print("=" * 70)
-    print("AZ + TR + RU IPTV MERGER")
-    print("=" * 70)
+    print("=" * 60)
+    print("OTTPLAYER AZ + TR + RU PLAYLIST BUILDER")
+    print("=" * 60)
 
-    for source_name, source_url in SOURCES:
-        print(f"\nDownloading: {source_name}")
+    for country, url in SOURCES:
+
+        print(f"\nDownloading: {country}")
+        print(url)
 
         try:
-            content = download(source_url)
-            entries = parse_m3u(content)
+            content = download(url)
+            channels = parse_playlist(content, country)
 
             added = 0
-            duplicates = 0
+            duplicate = 0
 
-            for entry in entries:
-                key = normalize_url(entry["url"])
+            for ch in channels:
 
-                if key in seen_urls:
-                    duplicates += 1
+                url_key = ch["url"].strip()
+
+                if url_key in seen_urls:
+                    duplicate += 1
                     continue
 
-                seen_urls.add(key)
-                all_entries.append(entry)
+                seen_urls.add(url_key)
+
+                all_channels.append(ch)
+
                 added += 1
 
-            print(f"Found      : {len(entries)}")
+            print(f"Found      : {len(channels)}")
             print(f"Added      : {added}")
-            print(f"Duplicates : {duplicates}")
+            print(f"Duplicates : {duplicate}")
 
         except Exception as e:
-            print(f"ERROR: {source_name}")
-            print(str(e))
+            print(f"ERROR: {e}")
 
-    os.makedirs(os.path.dirname(OUTPUT), exist_ok=True)
+    os.makedirs("docs", exist_ok=True)
 
-    generated = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
+    playlist = build_output(all_channels)
 
-    output_lines = [
-        '#EXTM3U',
-        f'# Generated automatically: {generated}',
-        f'# Total unique streams: {len(all_entries)}',
-        '# Sources: public IPTV playlists',
-        ''
-    ]
+    with open(
+        OUTPUT_M3U,
+        "w",
+        encoding="utf-8",
+        newline="\n"
+    ) as f:
+        f.write(playlist)
 
-    for entry in all_entries:
-        output_lines.extend(entry["block"])
-        output_lines.append("")
+    with open(
+        OUTPUT_M3U8,
+        "w",
+        encoding="utf-8",
+        newline="\n"
+    ) as f:
+        f.write(playlist)
 
-    with open(OUTPUT, "w", encoding="utf-8", newline="\n") as f:
-        f.write("\n".join(output_lines))
+    # OTTPlayer test üçün hər ölkədən ilk 3 kanal
+    test_channels = []
 
-    print("\n" + "=" * 70)
-    print(f"TOTAL UNIQUE STREAMS: {len(all_entries)}")
-    print(f"OUTPUT: {OUTPUT}")
-    print("=" * 70)
+    for country in ["Azerbaijan", "Turkiye", "Russia"]:
+
+        found = [
+            x for x in all_channels
+            if x["group"] == country
+        ][:3]
+
+        test_channels.extend(found)
+
+    with open(
+        TEST_OUTPUT,
+        "w",
+        encoding="utf-8",
+        newline="\n"
+    ) as f:
+        f.write(build_output(test_channels))
+
+    print("\n" + "=" * 60)
+    print(f"TOTAL: {len(all_channels)}")
+    print("Created:")
+    print(OUTPUT_M3U)
+    print(OUTPUT_M3U8)
+    print(TEST_OUTPUT)
+    print("=" * 60)
 
 
 if __name__ == "__main__":
