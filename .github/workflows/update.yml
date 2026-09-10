@@ -25,16 +25,21 @@ jobs:
       - name: Build playlist
         run: python merge.py
 
-      - name: Commit updated playlist
+      - name: Show generated files
+        run: |
+          echo "Generated files:"
+          ls -lah docs/
+
+      - name: Commit updated playlists
         run: |
           git config user.name "IPTV Auto Updater"
           git config user.email "actions@github.com"
 
-          git add docs/index.m3u
+          git add docs/
 
-          if [ -n "$(git status --porcelain docs/index.m3u)" ]; then
-            git commit -m "Auto-update IPTV playlist"
+          if ! git diff --cached --quiet; then
+            git commit -m "Auto-update IPTV playlists"
             git push
           else
-            echo "Playlist has not changed."
+            echo "No playlist changes."
           fi
