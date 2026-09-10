@@ -1,0 +1,40 @@
+name: Update IPTV Playlist
+
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: "17 */6 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Build playlist
+        run: python merge.py
+
+      - name: Commit updated playlist
+        run: |
+          git config user.name "IPTV Auto Updater"
+          git config user.email "actions@github.com"
+
+          git add docs/index.m3u
+
+          if [ -n "$(git status --porcelain docs/index.m3u)" ]; then
+            git commit -m "Auto-update IPTV playlist"
+            git push
+          else
+            echo "Playlist has not changed."
+          fi
