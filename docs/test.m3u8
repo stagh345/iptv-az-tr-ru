@@ -1,28 +1,19 @@
 #EXTM3U
-#EXTINF:0,Alvin Channel TV (360p) [Not 24/7]
-#EXTGRP:Azerbaijan
+#EXTINF:-1 group-title="Azerbaijan",Alvin Channel TV (360p) [Not 24/7]
 https://cdn10-alvinchannel.yayin.com.tr/alvinchannel/alvinchannel/playlist.m3u8
-#EXTINF:0,AnewZ
-#EXTGRP:Azerbaijan
+#EXTINF:-1 group-title="Azerbaijan",AnewZ
 https://53be5ef2d13aa.streamlock.net/cubesanewz-secure/smil:cubesanewz-secure-web.smil/playlist.m3u8
-#EXTINF:0,APA Tv (1080p)
-#EXTGRP:Azerbaijan
+#EXTINF:-1 group-title="Azerbaijan",APA Tv (1080p)
 http://stream.apa.tv/apastream/index.m3u8
-#EXTINF:0,4U TV (720p)
-#EXTGRP:Turkiye
-https://hls.4utv.live/hls/stream.m3u8
-#EXTINF:0,360 TV (720p) [Not 24/7]
-#EXTGRP:Turkiye
+#EXTINF:-1 group-title="Turkiye",24 TV
+https://mn-nl.mncdn.com/kanal24/smil:kanal24.smil/chunklist_b896000.m3u8
+#EXTINF:-1 group-title="Turkiye",360 TV
+https://turkmedya-live.ercdn.net/tv360/tv360_720p.m3u8
+#EXTINF:-1 group-title="Turkiye",360 TV (720p) [Not 24/7]
 https://turkmedya-live.ercdn.net/tv360/tv360.m3u8
-#EXTINF:0,A2TV (1080p)
-#EXTGRP:Turkiye
-https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/a2tv/a2tv.m3u8
-#EXTINF:0,2x2 (576i)
-#EXTGRP:Russia
-https://bl.rutube.ru/livestream/392b4686b770bae2da6bf5ac4574add5/index.m3u8?e=2068731801&s=tenr-yHXUv1wibfka78s2A&scheme=https
-#EXTINF:0,5 minut tishiny (1080p)
-#EXTGRP:Russia
-https://cdn-dvr.ntv.ru/5_minut_tishiny/index.m3u8
-#EXTINF:0,like Gecko) Chrome/144.0.0.0 Safari/537.36" group-title="General" - 5 Канал
-#EXTGRP:Russia
-https://streaming.televizor-24-tochka.ru/live/8.m3u8
+#EXTINF:-1 group-title="Russia",+TV (576p) [Geo-blocked]
+https://stream.plustv.by/plustv-web/plustv/playlist.m3u8
+#EXTINF:-1 group-title="Russia",.black (576p)
+http://stream.mcquack.net/263/index.m3u8
+#EXTINF:-1 group-title="Russia",.red (576p)
+http://5.188.159.128:8070/RED/index.m3u8
