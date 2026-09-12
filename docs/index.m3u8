@@ -178,7 +178,7 @@ https://bl.rutube.ru/livestream/c9e26bf5c003fd8d477200065ca1a05f/index.m3u8?e=20
 #EXTINF:-1 group-title="Russia",Channel 5 International (576p)
 http://178.134.1.158:8081/5channel/index.m3u8
 #EXTINF:-1 group-title="Russia",Channel 7 (576p)
-https://fs.uplink.kz/7_kanal/mono.m3u8?token=onlinetv
+http://stream.mcquack.net/27/index.m3u8
 #EXTINF:-1 group-title="Russia",Channel 8 (576p)
 http://45.11.139.43:8555/8kanal/index.m3u8
 #EXTINF:-1 group-title="Russia",Channel 8 Krasnoyarsk HD (1080p)
@@ -257,6 +257,8 @@ http://46.32.176.50/extremesport/index.m3u8
 http://31.148.48.15/Fan/index.m3u8
 #EXTINF:-1 group-title="Russia",Fashion&LifeStyle (1080p)
 http://stream.mcquack.net/119/index.m3u8
+#EXTINF:-1 group-title="Russia",FashionTV (1080p)
+http://fashionlive.mediacdn.ru/cdn/fashiontv/playlist.m3u8
 #EXTINF:-1 group-title="Russia",Fauna (576p)
 http://stream.mcquack.net/401/index.m3u8
 #EXTINF:-1 group-title="Russia",FILMBOX+ One Ukraine & Baltics (450p) [Geo-blocked]
