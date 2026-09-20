@@ -44,13 +44,13 @@ https://www.xezerxeber.az/stream/index.m3u8
 #EXTINF:-1 group-title="Russia",+TV (576p) [Geo-blocked]
 https://stream.plustv.by/plustv-web/plustv/playlist.m3u8
 #EXTINF:-1 group-title="Russia",.black (576p)
-http://str2.iptvhd.ru:8080/Sony_Turbo/index.m3u8
+http://stream.mcquack.net/263/index.m3u8
 #EXTINF:-1 group-title="Russia",.red (576p)
 http://5.188.159.128:8070/RED/index.m3u8
 #EXTINF:-1 group-title="Russia",.red HD (1080p)
 http://178.134.1.158:8081/red/index.m3u8
 #EXTINF:-1 group-title="Russia",.sci-fi (576p)
-http://31.148.48.15/SONY_SCI_FI/index.m3u8
+http://stream.mcquack.net/180/index.m3u8
 #EXTINF:-1 group-title="Russia",100% NEWS (576p)
 http://85.238.112.40:8810/hls_sec/239.33.16.32-.m3u8
 #EXTINF:-1 group-title="Russia",15+ Music (1080p)
@@ -167,8 +167,6 @@ http://178.124.179.122:8080/BT5/index.m3u8
 https://edge59.dc.beltelecom.by/ngtrk/smil:belarus5int.smil/playlist.m3u8
 #EXTINF:-1 group-title="Russia",Belgorod 24 (1080p)
 https://belnovosti.cdn.easyhoster.ru:8443/stream.m3u8
-#EXTINF:-1 group-title="Russia",Belsat TV (576p)
-https://iptv.prosto.tv/ch171/index.m3u8
 #EXTINF:-1 group-title="Russia",Big Asia (720p)
 http://live-bigasia.cdnvideo.ru/bigasia/bigasia.smil/playlist.m3u8
 #EXTINF:-1 group-title="Russia",Big Planet (576p)
@@ -383,8 +381,8 @@ http://str2.iptvhd.ru:8080/FastFunBoxHD/index.m3u8
 http://stream.mcquack.net/401/index.m3u8
 #EXTINF:-1 group-title="Russia",Feniks plus Kino (576p)
 http://31.148.48.15/Feniks_plus_kino/index.m3u8
-#EXTINF:-1 group-title="Russia",FILMBOX+ One Ukraine & Baltics (576p) [Not 24/7]
-https://iptv.prosto.tv/ch064/index.m3u8
+#EXTINF:-1 group-title="Russia",FILMBOX+ One Ukraine & Baltics (450p) [Geo-blocked]
+https://s70378.cdn.ngenix.net/filmbox/index.m3u8
 #EXTINF:-1 group-title="Russia",FilmUADrama (1080p)
 http://88.99.215.227/FilmUADrama/index.m3u8
 #EXTINF:-1 group-title="Russia",First Music Channel (1080p)
@@ -801,6 +799,8 @@ http://stream.mcquack.net/214/index.m3u8
 https://v4.proofix.ru/0mir/index.m3u8
 #EXTINF:-1 group-title="Russia",OTR (576p)
 http://flussonic.linkintel.ru/otr/index.m3u8
+#EXTINF:-1 group-title="Russia",OTV (Estonia)
+http://88.212.15.19/live/otv/playlist.m3u8
 #EXTINF:-1 group-title="Russia",OTV-Prim
 https://jz2lo90hnpy.a.trbcdn.net/livemaster/yo8gr_live-5gorrrfpouq.smil/playlist.m3u8
 #EXTINF:-1 group-title="Russia",Patriot (720p)
