@@ -585,7 +585,7 @@ https://fs.uplink.kz/match_planeta/mono.m3u8?token=onlinetv
 http://31.148.48.15/Match_Strana/index.m3u8
 #EXTINF:-1 group-title="Russia",Match! Ultra (1080p)
 http://str2.iptvhd.ru:8080/Match_TV_HD/index.m3u8
-#EXTINF:-1 group-title="Russia",MCM Top (Russia) (576p)
+#EXTINF:-1 group-title="Russia",MCM Top (576p)
 http://46.32.176.50/mcmtop/index.m3u8
 #EXTINF:-1 group-title="Russia",Mezzo Live (1080p)
 http://stream.mcquack.net/276/index.m3u8
@@ -1275,6 +1275,8 @@ https://5f05e059699ae.streamlock.net/WEB_Vera24/ngrp:Vera24.stream-adaptive/play
 https://stream.smotrim.ru/hls2/vesti_fm/playlist_4.m3u8
 #EXTINF:-1 group-title="Russia",Vetta 24 (576p) [Not 24/7]
 http://serv24.vintera.tv:8081/vetta/vetta_office/playlist.m3u8
+#EXTINF:-1 group-title="Russia",Viasat Epic Drama Ukraine (576p)
+http://195.189.60.253/118/index.m3u8
 #EXTINF:-1 group-title="Russia",Viasat Kino (576p)
 http://dtv.vol.net.ua/Viasat_Kino/index.m3u8
 #EXTINF:-1 group-title="Russia",Viasat Kino Action (576p)
