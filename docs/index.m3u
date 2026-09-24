@@ -227,6 +227,8 @@ http://178.134.1.158:8081/5channel/index.m3u8
 http://stream.mcquack.net/27/index.m3u8
 #EXTINF:-1 group-title="Russia",Channel 8 (Russia) (576p)
 http://45.11.139.43:8555/8kanal/index.m3u8
+#EXTINF:-1 group-title="Russia",Channel 8 International (576p) [Geo-blocked]
+http://live-11cinema.cdnvideo.net/11cinemanet/11cinemanet/playlist.m3u8
 #EXTINF:-1 group-title="Russia",Channel 8 Krasnoyarsk HD (1080p)
 https://tshift-1.telecoma.tv/8channel/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 group-title="Russia",Channel 8 Novosibirsk (480i)
@@ -987,6 +989,8 @@ http://stream.mcquack.net/81/index.m3u8
 http://158.101.222.193:88/georgia_play.php?id=setanta_georgia
 #EXTINF:-1 group-title="Russia",Setanta Sports 1 Eurasia (1080p)
 http://stream.mcquack.net/234/index.m3u8
+#EXTINF:-1 group-title="Russia",Setanta Sports 1 HD
+https://fs.uplink.kz/setanta_sports_1_hd/mono.m3u8?token=onlinetv
 #EXTINF:-1 group-title="Russia",Setanta Sports 2
 http://158.101.222.193:88/georgia_play.php?id=setanta_sports_plus_georgia
 #EXTINF:-1 group-title="Russia",Setanta Sports 2 Eurasia (1080p)
@@ -1149,10 +1153,10 @@ http://live.tkr.cdnvideo.ru/tkr/tkr.sdp/playlist.m3u8
 http://stream.mcquack.net/135/index.m3u8
 #EXTINF:-1 group-title="Russia",TNT HD (1080p)
 http://45.153.24.78/TNT/index.m3u8
-#EXTINF:-1 group-title="Russia",TNT International (480p)
-https://cdn4.skygo.mn/live/disk1/THT/HLSv3-FTA/THT.m3u8
 #EXTINF:-1 group-title="Russia",TNT International Belarus (1080p)
 http://05cea6e8.ucomist.net/iptv/VK7YCHHWNDD8XC/15230/index.m3u8
+#EXTINF:-1 group-title="Russia",TNT International SD (480p)
+https://cdn4.skygo.mn/live/disk1/THT/HLSv3-FTA/THT.m3u8
 #EXTINF:-1 group-title="Russia",TNT4 (576p)
 http://flussonic.linkintel.ru/tnt4/index.m3u8
 #EXTINF:-1 group-title="Russia",TNT4 HD (1080p)
@@ -1345,6 +1349,8 @@ https://vgtrkregion-reg.cdnvideo.ru/vgtrk/vladivostok/vostok24-hd/index.m3u8
 https://cdn4.skygo.mn/live/disk1/Vremya/HLSv3-FTA/Vremya.m3u8
 #EXTINF:-1 group-title="Russia",We Sport TV
 http://forever.megogo.xyz/iptv/QGB4M3H62GC7E3/2471/index.m3u8
+#EXTINF:-1 group-title="Russia",Yalta TV (480p) [Geo-blocked]
+http://195.26.83.96:7029/play/a006
 #EXTINF:-1 group-title="Russia",YaPervyy (1080p)
 https://yaroslavl.mediacdn.ru/cdn/pervyaroslavsk/playlist.m3u8
 #EXTINF:-1 group-title="Russia",Yuvelirochka (576p)
