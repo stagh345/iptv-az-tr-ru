@@ -237,6 +237,8 @@ https://live-8knsk.cdnvideo.ru/8knsk/stream1/playlist.m3u8
 https://contact.gostreaming.tv/Con-11/index.m3u8
 #EXTINF:-1 group-title="Russia",Channel One (Russia) (1080p)
 http://31.148.48.15/Pervii_kanal_HD/index.m3u8
+#EXTINF:-1 group-title="Russia",Channel One (Russia) Europa (480p)
+https://streaming.thestream.cyou/live/210-req_offset_28000000-req_window_0-1k_v5.m3u8
 #EXTINF:-1 group-title="Russia",Channel One (Russia) HD (720p)
 https://edge1.1internet.tv/dash-live2/streams/1tv-dvr/1tvdash.mpd
 #EXTINF:-1 group-title="Russia",Channel One CIS (576p)
@@ -703,6 +705,8 @@ http://31.148.48.15/Nauka_2.0/index.m3u8
 http://stream.mcquack.net/403/index.m3u8
 #EXTINF:-1 group-title="Russia",Nevskiy (1080p)
 https://cdn-dvr.ntv.ru/Nevskiy/index.m3u8
+#EXTINF:-1 group-title="Russia",New Channel Pop! (480p)
+https://vodcdn.bamboo-cloud.com/livehls/6ab37c6c7e057f9063071c85/master.m3u8
 #EXTINF:-1 group-title="Russia",Next TV (1080p) [Not 24/7]
 http://gohoski.fvds.ru:3000/mediabay/601/playlist.m3u8
 #EXTINF:-1 group-title="Russia",Nick Jr. (Russia) (576p)
@@ -859,8 +863,6 @@ https://stream8.cinerama.uz/1431/tracks-v1a1/mono.m3u8
 https://s.qonaevtv.kz/live/qonaev/playlist.m3u8
 #EXTINF:-1 group-title="Russia",Quiz TV (1080p)
 http://stream.mcquack.net/397/index.m3u8
-#EXTINF:-1 group-title="Russia",Rada TV (1080p)
-https://lowa8026-cmyk.github.io/Ukraine/Edyni_Novyny/RADA.m3u8
 #EXTINF:-1 group-title="Russia",Radio 1 (Russia) (720p) [Geo-blocked]
 https://stream.radio1.ru/memfs/49dee7fe-77ba-4e6b-8cdc-fa840535b242.m3u8
 #EXTINF:-1 group-title="Russia",Radio Mir (720p)
