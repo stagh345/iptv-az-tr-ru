@@ -297,7 +297,7 @@ http://stream.mcquack.net/312/index.m3u8
 https://cdn.1tvcrimea.ru/24tvcrimea.m3u8
 #EXTINF:-1 group-title="Russia",Current Time TV (1080p)
 https://rfe-ingest.akamaized.net/hls/live/2033043/tvmc05/master.m3u8
-#EXTINF:-1 group-title="Russia",Da Vinci (576p)
+#EXTINF:-1 group-title="Russia",Da Vinci (Russia) (576p)
 http://hls127.freeott.top:8080/Da_Vinci_Learning/video.m3u8
 #EXTINF:-1 group-title="Russia",Dacha (1080p)
 https://dash2.antik.sk/live/test_dacha_tv_atktv/playlist.m3u8
@@ -381,7 +381,7 @@ http://str2.iptvhd.ru:8080/Extreme_Sports/index.m3u8
 http://31.148.48.15/Fan/index.m3u8
 #EXTINF:-1 group-title="Russia",Fashion&LifeStyle (1080p)
 http://stream.mcquack.net/119/index.m3u8
-#EXTINF:-1 group-title="Russia",FashionTV (1080p)
+#EXTINF:-1 group-title="Russia",FashionTV (Russia) (1080p)
 http://fashionlive.mediacdn.ru/cdn/fashiontv/playlist.m3u8
 #EXTINF:-1 group-title="Russia",Fast&FunBox (Russia) HD (1080p)
 http://str2.iptvhd.ru:8080/FastFunBoxHD/index.m3u8
@@ -421,6 +421,8 @@ http://str2.iptvhd.ru:8080/Fox_Life_HD/index.m3u8
 http://hls127.freeott.top:8080/Gagsnetwork/video.m3u8
 #EXTINF:-1 group-title="Russia",Glazami Turista (1080p)
 http://str2.iptvhd.ru:8080/Glazami_turista_HD/index.m3u8
+#EXTINF:-1 group-title="Russia",Gorodskoy telekanal (720p)
+https://gtk.tv/hls/gtyar.m3u8
 #EXTINF:-1 group-title="Russia",Govorit Moskva (720p)
 https://video.govoritmoskva.ru/rufm/index.m3u8
 #EXTINF:-1 group-title="Russia",Gribu visu zinat (576p)
@@ -929,6 +931,8 @@ https://amg17233-amg17233c1-wisptv-us-6409.playouts.now.amagi.tv/playlist.m3u8
 https://bl.rutube.ru/livestream/b1eb8e90d7e636677b3eb73b4fcbb717/index.m3u8?e=2069285076&s=d-E-bxKy2v3EEJ94RQX9CA&scheme=https
 #EXTINF:-1 group-title="Russia",RU.TV Kids (720p)
 https://rutvkids.ru/live/efir/index.m3u8
+#EXTINF:-1 group-title="Russia",Rus (576p)
+http://31.148.5.241/kanal_21/index.m3u8
 #EXTINF:-1 group-title="Russia",Russia-1 (1080p)
 http://vgtrkregion-reg.cdnvideo.ru/vgtrk/maykop/russia1-hd/index.m3u8
 #EXTINF:-1 group-title="Russia",Russia-1 +4 (1080p)
