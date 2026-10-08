@@ -1175,9 +1175,9 @@ http://stream.mcquack.net/402/index.m3u8
 http://stream.mcquack.net/111/index.m3u8
 #EXTINF:-1 group-title="Russia",TKR (1080p) [Not 24/7]
 http://live.tkr.cdnvideo.ru/tkr/tkr.sdp/playlist.m3u8
-#EXTINF:-1 group-title="Russia",TNT (576p)
+#EXTINF:-1 group-title="Russia",TNT (Russia) (576p)
 http://stream.mcquack.net/135/index.m3u8
-#EXTINF:-1 group-title="Russia",TNT HD (1080p)
+#EXTINF:-1 group-title="Russia",TNT (Russia) HD (1080p)
 http://45.153.24.78/TNT/index.m3u8
 #EXTINF:-1 group-title="Russia",TNT International (480p)
 http://91.228.35.249:8001/1:0:1:6a7:3138:13e:820000:0:0:0:
@@ -1267,8 +1267,6 @@ http://213.91.179.28:8000/play/a082
 http://83.228.75.166:8000/play/a0aq
 #EXTINF:-1 group-title="Russia",U (720p)
 https://bl.rutube.ru/livestream/5c9327074e25ca86f3111d4085cbbb65/index.m3u8?e=2066519758&s=9cPc1rCGu6M932eqrifRhQ&scheme=https
-#EXTINF:-1 group-title="Russia",UDAR (1080p)
-http://5.188.159.128:8070/udar/index.m3u8
 #EXTINF:-1 group-title="Russia",Ugra-TV (1080p)
 https://live-ugratv.cdnvideo.ru/ugratv/ugratv/playlist.m3u8
 #EXTINF:-1 group-title="Russia",Ulytau
