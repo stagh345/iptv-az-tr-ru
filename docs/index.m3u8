@@ -487,7 +487,7 @@ https://fs.uplink.kz/habar/mono.m3u8?token=onlinetv
 http://31.148.48.15/KHL_TV/index.m3u8
 #EXTINF:-1 group-title="Russia",KHL Prime (1080p)
 http://str2.iptvhd.ru:8080/KHL_TV_HD/index.m3u8
-#EXTINF:-1 group-title="Russia",KidZone Max (1080p) [Geo-blocked]
+#EXTINF:-1 group-title="Russia",KidZone Max SD (1080p) [Geo-blocked]
 https://v4-pan-n79-cdn-01.live.cdn.cgates.lt/live/dash/560706/index.mpd
 #EXTINF:-1 group-title="Russia",Kineko (1080p)
 http://31.148.48.15/Kineko_HD/index.m3u8
