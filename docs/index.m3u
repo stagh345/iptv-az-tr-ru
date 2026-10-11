@@ -86,7 +86,7 @@ https://sitv.ru/hls/s86.m3u8
 #EXTINF:-1 group-title="Russia",A1 (576p)
 http://31.148.48.15/A1/index.m3u8
 #EXTINF:-1 group-title="Russia",A2 (576p)
-http://str2.iptvhd.ru:8080/Amedia_2/index.m3u8
+http://31.148.48.15/A2/index.m3u8
 #EXTINF:-1 group-title="Russia",Abaza TV (1080p)
 https://public.apsny.camera/tv_abaza_tv_to_site/index.m3u8
 #EXTINF:-1 group-title="Russia",Afontovo
@@ -107,6 +107,8 @@ http://31.148.48.15/Amedia_Premium_HD/index.m3u8
 https://janya-digimix.akamaized.net/vglive-sk-955415/russia/ngrp:angelrussia_all/playlist.m3u8
 #EXTINF:-1 group-title="Russia",Ani (576p)
 http://46.32.176.50/anitv/index.m3u8
+#EXTINF:-1 group-title="Russia",Animal Planet (Russia) (1080p)
+http://stream.mcquack.net/114/index.m3u8
 #EXTINF:-1 group-title="Russia",Apsua TV
 https://gcmx3v3owcj.a.trbcdn.net/livemaster/ba7pu_fgej0zelpw.smil/playlist.m3u8?blstid=null
 #EXTINF:-1 group-title="Russia",Aqlvoy
@@ -136,9 +138,9 @@ https://fs.uplink.kz/atameken/mono.m3u8?token=onlinetv
 #EXTINF:-1 group-title="Russia",ATR (1080p)
 http://stream.mcquack.net/244/index.m3u8
 #EXTINF:-1 group-title="Russia",Auto Plus (576p)
-http://str2.iptvhd.ru:8080/Avto_Plyus/index.m3u8
-#EXTINF:-1 group-title="Russia",Avto24 (1080i)
-http://str2.iptvhd.ru:8080/Avto_24/index.m3u8
+http://31.148.48.15/Avto_Plus/index.m3u8
+#EXTINF:-1 group-title="Russia",Avto24 (576p)
+http://stream.mcquack.net/78/index.m3u8
 #EXTINF:-1 group-title="Russia",Baby Time (576p)
 http://178.134.1.158:8081/babytime/index.m3u8
 #EXTINF:-1 group-title="Russia",Balabol (1080p)
@@ -185,10 +187,8 @@ http://stream.mcquack.net/364/index.m3u8
 https://fs.uplink.kz/bober/mono.m3u8?token=onlinetv
 #EXTINF:-1 group-title="Russia",Boks TV (720p)
 http://31.148.48.15/Boks_TV/index.m3u8
-#EXTINF:-1 group-title="Russia",Bollywood (576p)
-http://str2.iptvhd.ru:8080/bollywood/index.m3u8
-#EXTINF:-1 group-title="Russia",Bollywood HD (1080p)
-http://str2.iptvhd.ru:8080/Bollywood_HD/index.m3u8
+#EXTINF:-1 group-title="Russia",Bollywood HD (576p)
+http://176.118.197.101/Bollywood_HD/index.m3u8
 #EXTINF:-1 group-title="Russia",Bollywood HD Russia (576p)
 https://xykt-fix.github.io/cinerama_edge01/hls/BOLLYWOOD_RU/Movie009.m3u8
 #EXTINF:-1 group-title="Russia",Bolt (Russia) (576p)
@@ -201,8 +201,6 @@ http://stream.mcquack.net/272/index.m3u8
 http://31.148.48.15/Bridge_TV_HD/index.m3u8
 #EXTINF:-1 group-title="Russia",BRIDGE Deluxe HD (576p)
 http://stream.mcquack.net/92/index.m3u8
-#EXTINF:-1 group-title="Russia",BRIDGE Fresh (1080p)
-http://str2.iptvhd.ru:8080/Bridge_TV_HD/index.m3u8
 #EXTINF:-1 group-title="Russia",BRIDGE Hits (576p)
 http://stream.mcquack.net/320/index.m3u8
 #EXTINF:-1 group-title="Russia",BRIDGE Rock (576p)
@@ -224,7 +222,7 @@ https://bl.rutube.ru/livestream/c9e26bf5c003fd8d477200065ca1a05f/index.m3u8?e=20
 #EXTINF:-1 group-title="Russia",Channel 12 (1080p)
 https://12channel.bonus-tv.ru/cdn/12channel/playlist.m3u8
 #EXTINF:-1 group-title="Russia",Channel 5 (Russia) (576p)
-http://str2.iptvhd.ru:8080/5_kanal/index.m3u8
+http://31.148.5.241/kanal_5/index.m3u8
 #EXTINF:-1 group-title="Russia",Channel 5 International (576p)
 http://178.134.1.158:8081/5channel/index.m3u8
 #EXTINF:-1 group-title="Russia",Channel 7 (Kazakhstan) (576p)
@@ -302,7 +300,7 @@ https://cdn.1tvcrimea.ru/24tvcrimea.m3u8
 #EXTINF:-1 group-title="Russia",Current Time TV (1080p)
 https://rfe-ingest.akamaized.net/hls/live/2033043/tvmc05/master.m3u8
 #EXTINF:-1 group-title="Russia",Da Vinci (Russia) (576p)
-http://hls127.freeott.top:8080/Da_Vinci_Learning/video.m3u8
+http://stream.mcquack.net/238/index.m3u8
 #EXTINF:-1 group-title="Russia",Dacha (1080p)
 https://dash2.antik.sk/live/test_dacha_tv_atktv/playlist.m3u8
 #EXTINF:-1 group-title="Russia",Dagestan (1080p)
@@ -311,8 +309,6 @@ https://dagestan.mediacdn.ru/cdn/dagestan/playlist.m3u8
 http://dancehits80.denvs.ru:8080/index.m3u8
 #EXTINF:-1 group-title="Russia",Dasturxon TV (576p)
 https://stream8.cinerama.uz/1206/tracks-v1a1/playlist.m3u8
-#EXTINF:-1 group-title="Russia",Detski mir (576p)
-http://str2.iptvhd.ru:8080/Teleklub/index.m3u8
 #EXTINF:-1 group-title="Russia",Detskiy (576p)
 https://stream8.cinerama.uz/1033/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Russia",Detskoe kino [Not 24/7]
@@ -325,6 +321,8 @@ http://stream.mcquack.net/274/index.m3u8
 http://stream.mcquack.net/275/index.m3u8
 #EXTINF:-1 group-title="Russia",Dikij (576p)
 http://hls127.freeott.top:8080/Dikiy/video.m3u8
+#EXTINF:-1 group-title="Russia",Discovery Channel (Russia) (1080p)
+http://stream.mcquack.net/177/index.m3u8
 #EXTINF:-1 group-title="Russia",Doctor (1080p)
 http://31.148.48.15/Doktor/index.m3u8
 #EXTINF:-1 group-title="Russia",DocuBox Russia (1080p)
@@ -373,6 +371,10 @@ http://str2.iptvhd.ru:8080/Euronews/index.m3u8
 http://31.148.48.15/Europa_Plus_HD/index.m3u8
 #EXTINF:-1 group-title="Russia",Europa Plus TV Belarus (576p)
 http://46.53.200.153:7777/play/EuropaPlus/index.m3u8
+#EXTINF:-1 group-title="Russia",Eurosport 1 Russia (1080p)
+http://stream.mcquack.net/176/index.m3u8
+#EXTINF:-1 group-title="Russia",Eurosport 2 Russia (1080p)
+http://stream.mcquack.net/192/index.m3u8
 #EXTINF:-1 group-title="Russia",Evrokino (576p)
 https://fs.uplink.kz/eurokino/mono.m3u8?token=onlinetv
 #EXTINF:-1 group-title="Russia",Evrokino HD (1080p)
@@ -381,16 +383,12 @@ http://stream.mcquack.net/385/index.m3u8
 rtmp://89.28.25.122/live/tnt_md
 #EXTINF:-1 group-title="Russia",Extreme Sports Channel (576p)
 http://46.32.176.50/extremesport/index.m3u8
-#EXTINF:-1 group-title="Russia",Extreme Sports Channel HD (1080p)
-http://str2.iptvhd.ru:8080/Extreme_Sports/index.m3u8
 #EXTINF:-1 group-title="Russia",FAN (1080p)
 http://31.148.48.15/Fan/index.m3u8
 #EXTINF:-1 group-title="Russia",Fashion&LifeStyle (1080p)
 http://stream.mcquack.net/119/index.m3u8
-#EXTINF:-1 group-title="Russia",FashionTV (Russia) (1080p)
+#EXTINF:-1 group-title="Russia",FashionTV (1080p)
 http://fashionlive.mediacdn.ru/cdn/fashiontv/playlist.m3u8
-#EXTINF:-1 group-title="Russia",Fast&FunBox (Russia) HD (1080p)
-http://str2.iptvhd.ru:8080/FastFunBoxHD/index.m3u8
 #EXTINF:-1 group-title="Russia",Fauna (576p)
 http://stream.mcquack.net/401/index.m3u8
 #EXTINF:-1 group-title="Russia",Feniks plus Kino (576p)
@@ -405,8 +403,8 @@ http://rtmp.one.by:1300
 http://hls127.freeott.top:8080/1muz_HD/video.m3u8
 #EXTINF:-1 group-title="Russia",FON Music (576p)
 https://stream8.cinerama.uz/1272/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Russia",FoodTime (1080p)
-http://str2.iptvhd.ru:8080/Eda/index.m3u8
+#EXTINF:-1 group-title="Russia",Food Network (Russia) (1080p)
+http://stream.mcquack.net/298/index.m3u8
 #EXTINF:-1 group-title="Russia",Football (720p)
 http://31.148.48.15/Futbol_HD/index.m3u8
 #EXTINF:-1 group-title="Russia",Fox (Russia) (576p)
@@ -419,14 +417,10 @@ https://dash4.antik.sk/live/test_uatv/playlist.m3u8
 http://stream.mcquack.net/181/index.m3u8
 #EXTINF:-1 group-title="Russia",Friday! International Kazakhstan (576p)
 https://fs.uplink.kz/bolshaya_pyatnica/mono.m3u8?token=onlinetv
-#EXTINF:-1 group-title="Russia",FX (1080p)
-http://str2.iptvhd.ru:8080/FOX_HD/index.m3u8
-#EXTINF:-1 group-title="Russia",FX Life (576p)
-http://str2.iptvhd.ru:8080/Fox_Life_HD/index.m3u8
 #EXTINF:-1 group-title="Russia",Gagsnetwork (576p)
 http://hls127.freeott.top:8080/Gagsnetwork/video.m3u8
-#EXTINF:-1 group-title="Russia",Glazami Turista (1080p)
-http://str2.iptvhd.ru:8080/Glazami_turista_HD/index.m3u8
+#EXTINF:-1 group-title="Russia",Glazami Turista (576i)
+https://stream8.cinerama.uz/1423/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Russia",Gorodskoy telekanal (720p)
 https://gtk.tv/hls/gtyar.m3u8
 #EXTINF:-1 group-title="Russia",Govorit Moskva (720p)
@@ -439,8 +433,6 @@ https://balancer.facecast.io/evacoder_hls_hi/UUMLQVAYVlZyH14GRENQVV0G/2/720-3.m3
 http://live.guberniatv.cdnvideo.ru/guberniatv/guberniatv.sdp/playlist.m3u8
 #EXTINF:-1 group-title="Russia",Gulli Girl (720p)
 https://stream8.cinerama.uz/1445/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Russia",History 2 (1080p)
-http://str2.iptvhd.ru:8080/H2_HD/index.m3u8
 #EXTINF:-1 group-title="Russia",Hit FM
 https://hitfm.nfthost.net/hls/hitfm/live_all/playlist.m3u8
 #EXTINF:-1 group-title="Russia",Hit HD (1080p)
@@ -461,6 +453,8 @@ https://fs.uplink.kz/india/mono.m3u8?token=onlinetv
 http://188.113.190.12/329/index.m3u8
 #EXTINF:-1 group-title="Russia",Ingushetia (1080p)
 https://ingushetia.mediacdn.ru/cdn/ingushetia/playlist.m3u8
+#EXTINF:-1 group-title="Russia",Investigation Discovery (Russia) (1080p)
+http://stream.mcquack.net/205/index.m3u8
 #EXTINF:-1 group-title="Russia",Istoki (1080p)
 https://istoki.tv/live/stream1/playlist.m3u8
 #EXTINF:-1 group-title="Russia",Istoriya (576p)
@@ -471,12 +465,8 @@ http://igi-hls.cdnvideo.ru/igi/igi_tcode/playlist.m3u8
 https://fs.uplink.kz/jibek_joly/mono.m3u8?token=onlinetv
 #EXTINF:-1 group-title="Russia",Jibek Joly HD (1080p)
 https://stream.qazcdn.net/ex6r514/jjtv/playlist.m3u8
-#EXTINF:-1 group-title="Russia",Kamedi HD (1080p)
-http://str2.iptvhd.ru:8080/Kinopokaz_HD2/index.m3u8
 #EXTINF:-1 group-title="Russia",Kapitan Fantastika (1080p)
 http://stream.mcquack.net/144/index.m3u8
-#EXTINF:-1 group-title="Russia",Kapitan Fantastika HD (1080p)
-http://str2.iptvhd.ru:8080/Ginger_HD/index.m3u8
 #EXTINF:-1 group-title="Russia",Kavkaz 24 (576p)
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/stavropol/kavkaz24-hd/index.m3u8
 #EXTINF:-1 group-title="Russia",Kentron TV (1080p)
@@ -485,8 +475,6 @@ http://stream.mcquack.net/39/index.m3u8
 https://fs.uplink.kz/habar/mono.m3u8?token=onlinetv
 #EXTINF:-1 group-title="Russia",KHL (720p)
 http://31.148.48.15/KHL_TV/index.m3u8
-#EXTINF:-1 group-title="Russia",KHL Prime (1080p)
-http://str2.iptvhd.ru:8080/KHL_TV_HD/index.m3u8
 #EXTINF:-1 group-title="Russia",KidZone Max SD (1080p) [Geo-blocked]
 https://v4-pan-n79-cdn-01.live.cdn.cgates.lt/live/dash/560706/index.mpd
 #EXTINF:-1 group-title="Russia",Kineko (1080p)
@@ -544,7 +532,7 @@ http://stream.mcquack.net/26/index.m3u8
 #EXTINF:-1 group-title="Russia",KTK HD (720p) [Not 24/7]
 http://89.218.30.37/ktklive/live.hq/playlist.m3u8
 #EXTINF:-1 group-title="Russia",Kto est kto (576p)
-http://str2.iptvhd.ru:8080/kto_est_kto/index.m3u8
+http://31.148.48.15/Kto_est_kto/index.m3u8
 #EXTINF:-1 group-title="Russia",Kuban 24 (480p) [Geo-blocked]
 http://dmi3y-tv.online/hls/zabava/region/MAYK/CH_MAYKOP.m3u8
 #EXTINF:-1 group-title="Russia",Kuban 24 SD [Geo-blocked]
@@ -597,14 +585,14 @@ http://31.148.48.15/Match_Arena_HD/index.m3u8
 http://stream.mcquack.net/112/index.m3u8
 #EXTINF:-1 group-title="Russia",Match! Igra (720p)
 http://31.148.48.15/Match_Igra_HD/index.m3u8
-#EXTINF:-1 group-title="Russia",Match! Igra HD (1080p)
-http://str2.iptvhd.ru:8080/Match_Igra_HD/index.m3u8
 #EXTINF:-1 group-title="Russia",Match! Planeta (576p)
 https://fs.uplink.kz/match_planeta/mono.m3u8?token=onlinetv
+#EXTINF:-1 group-title="Russia",Match! Premier (480p) [Geo-blocked]
+http://192.162.64.99:5000/play/a02b/index.m3u8
 #EXTINF:-1 group-title="Russia",Match! Strana (720p)
 http://31.148.48.15/Match_Strana/index.m3u8
 #EXTINF:-1 group-title="Russia",Match! Ultra (1080p)
-http://str2.iptvhd.ru:8080/Match_TV_HD/index.m3u8
+http://31.148.5.241/kanal_3/index.m3u8
 #EXTINF:-1 group-title="Russia",MCM Top (576p)
 http://46.32.176.50/mcmtop/index.m3u8
 #EXTINF:-1 group-title="Russia",Mezzo Live (1080p)
@@ -667,16 +655,12 @@ https://fs.uplink.kz/multilandia/mono.m3u8?token=onlinetv
 https://sirius.greenhosting.ru/MultimaniaRu/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Russia",Music (480p) [Not 24/7]
 https://st2.mediabay.tv/KG_KTRK-Muzika/index.m3u8
-#EXTINF:-1 group-title="Russia",MusicBox Gold (576p)
-http://str2.iptvhd.ru:8080/360TuneBox/index.m3u8
 #EXTINF:-1 group-title="Russia",Muz Soyuz (576p)
 https://hls-tvsoyuz.cdnvideo.ru/tvsoyuz2/muzsoyuz.6fw0-58xp-acts-esy0/playlist.m3u8
 #EXTINF:-1 group-title="Russia",Muz-TV (576p)
 http://46.32.176.50/muztv/index.m3u8
 #EXTINF:-1 group-title="Russia",Muzhskoe kino (576p)
 http://stream.mcquack.net/107/index.m3u8
-#EXTINF:-1 group-title="Russia",Muzhskoy (1080p)
-http://str2.iptvhd.ru:8080/Muzhskoy/index.m3u8
 #EXTINF:-1 group-title="Russia",Muzyka 1 [Not 24/7]
 https://kino-1.catcast.tv/content/37745/index.m3u8
 #EXTINF:-1 group-title="Russia",Muzyka Kino [Not 24/7]
@@ -697,8 +681,8 @@ http://185.23.80.23:8080/NANO_HD/index.m3u8
 http://hls127.freeott.top:8080/Nash_kinomir/video.m3u8
 #EXTINF:-1 group-title="Russia",Nash Kinopokaz HD (576p)
 http://46.53.200.153:7777/play/SRT_Nash_kinopokaz/index.m3u8
-#EXTINF:-1 group-title="Russia",Nashe HD (1080p)
-http://str2.iptvhd.ru:8080/Nashe_HD/index.m3u8
+#EXTINF:-1 group-title="Russia",Nashe HD (576p)
+http://stream.mcquack.net/217/index.m3u8
 #EXTINF:-1 group-title="Russia",Nashe Lubimoe Kino (576p)
 http://hls127.freeott.top:8080/Lubimoe_Kino/video.m3u8
 #EXTINF:-1 group-title="Russia",Nashe Lubimoe Kino Ukraine (1080p)
@@ -709,12 +693,10 @@ http://stream.mcquack.net/362/index.m3u8
 http://hls127.freeott.top:8080/Nashe_Novoe_Kino_HD/video.m3u8
 #EXTINF:-1 group-title="Russia",National Geographic (Russia) (1080p)
 http://dtv.vol.net.ua/National_Geographic-HD/index.m3u8
-#EXTINF:-1 group-title="Russia",National Geographic (Russia) HD (1080p)
-http://str2.iptvhd.ru:8080/National_Geo_HD/index.m3u8
 #EXTINF:-1 group-title="Russia",National Geographic Wild (Russia) (1080p)
 http://hls127.freeott.top:8080/Nat_Geo_Wild_SD/video.m3u8
-#EXTINF:-1 group-title="Russia",National Geographic Wild (Russia) HD (1080p)
-http://str2.iptvhd.ru:8080/Nat_Geo_Wild_HD/index.m3u8
+#EXTINF:-1 group-title="Russia",National Geographic Wild (Russia) HD
+http://178.76.68.60:7442/50/mpegts
 #EXTINF:-1 group-title="Russia",Nauka (Russia) (1080p)
 http://31.148.48.15/Nauka_2.0/index.m3u8
 #EXTINF:-1 group-title="Russia",Nauka (Ukraine) (576p)
@@ -847,8 +829,6 @@ https://live1.1tvcrimea.ru/1tvcrimea.m3u8
 https://cdn-dvr.ntv.ru/Perviy_otdel/index.m3u8
 #EXTINF:-1 group-title="Russia",Pervyy gorodskoy. Odessa (576p)
 http://91.194.79.46:8081/stream2/channel2/playlist.m3u8
-#EXTINF:-1 group-title="Russia",Pervyy Kosmicheskiy HD (1080p)
-http://str2.iptvhd.ru:8080/Eureka_HD/index.m3u8
 #EXTINF:-1 group-title="Russia",Pervyy Respublikanskiy
 https://streaming.televizor-24-tochka.ru/live/27.m3u8
 #EXTINF:-1 group-title="Russia",Pes (1080p)
@@ -869,8 +849,6 @@ https://tele2dvrnat01-02.cdnvideo.ru/stream/NAT_Prima/hls/index.m3u8
 https://tv-streaming.bsh.ru:21938/probusiness/probusiness.stream/playlist.m3u8
 #EXTINF:-1 group-title="Russia",Pro Lyubov (1080p)
 http://hls127.freeott.top:8080/ProLubovHD/video.m3u8
-#EXTINF:-1 group-title="Russia",Pro Lyubov HD (1080p)
-http://str2.iptvhd.ru:8080/pro_lyubov/index.m3u8
 #EXTINF:-1 group-title="Russia",Pro100TV (576p)
 https://sirius.greenhosting.ru/Pro100tvRu/video.m3u8
 #EXTINF:-1 group-title="Russia",Prodvizhenie (1080p)
@@ -907,8 +885,6 @@ http://hls127.freeott.top:8080/RBK/video.m3u8
 http://s55766.cdn.ngenix.net/s55766-media-origin/rline_high/index.m3u8
 #EXTINF:-1 group-title="Russia",REN TV (576p)
 http://31.148.48.15/REN-TV/index.m3u8
-#EXTINF:-1 group-title="Russia",REN TV HD (1080p)
-http://str2.iptvhd.ru:8080/REN_TV/index.m3u8
 #EXTINF:-1 group-title="Russia",REN TV International (576p)
 http://178.134.1.158:8081/RENTV/index.m3u8
 #EXTINF:-1 group-title="Russia",Retro (576p)
@@ -917,8 +893,6 @@ http://stream.mcquack.net/191/index.m3u8
 https://live-rikatv.cdnvideo.ru/rikatv/rikatv_tcode.sdp/playlist.m3u8
 #EXTINF:-1 group-title="Russia",Rodnoe Kino (576p)
 http://stream.mcquack.net/242/index.m3u8
-#EXTINF:-1 group-title="Russia",Romantichnoe HD (1080p)
-http://str2.iptvhd.ru:8080/Semeynoe_HD/index.m3u8
 #EXTINF:-1 group-title="Russia",Rossiya 1 Vainah (576i)
 https://live.chechensoft.ru/vainahtv/ngrp:vaynahtv_all/playlist.m3u8
 #EXTINF:-1 group-title="Russia",RT Balkan (1080p)
@@ -976,7 +950,7 @@ https://vgtrkregion-reg.cdnvideo.ru/vgtrk/7/kultura-hd/index.m3u8
 #EXTINF:-1 group-title="Russia",Russia-K HD (1080p)
 https://stream.smotrim.ru/hls2/russia_k/playlist_5.m3u8
 #EXTINF:-1 group-title="Russia",Russian Extreme (576p)
-http://str2.iptvhd.ru:8080/Russkiy_ekstrim/index.m3u8
+http://31.148.48.15/Russkiy_Ekstrim/index.m3u8
 #EXTINF:-1 group-title="Russia",Russian Extreme Ultra (1440p)
 http://46.53.200.153:7777/play/test_krask1/index.m3u8
 #EXTINF:-1 group-title="Russia",Russian MusicBox (576p)
@@ -1095,26 +1069,18 @@ https://st2.mediabay.tv/KG_KTRK-Sport/index.m3u8
 http://stream.mcquack.net/461/index.m3u8
 #EXTINF:-1 group-title="Russia",Sportivnyy (1080p)
 https://live-3.otcnet.ru/sportivny/index.m3u8
-#EXTINF:-1 group-title="Russia",SSSR TV (1080p)
-http://str2.iptvhd.ru:8080/sssr_kino/index.m3u8
 #EXTINF:-1 group-title="Russia",Star Cinema
 https://dash2.antik.sk/live/test_star_cinema_atktv/playlist.m3u8
 #EXTINF:-1 group-title="Russia",Star Family (1080p)
 https://dash2.antik.sk/live/test_star_family_atktv/playlist.m3u8
 #EXTINF:-1 group-title="Russia",START Air (1080p)
 http://176.118.197.101/START_AIR/index.m3u8
-#EXTINF:-1 group-title="Russia",START Air HD (1080p)
-http://str2.iptvhd.ru:8080/START_Air_HD/index.m3u8
 #EXTINF:-1 group-title="Russia",Start Triumf (1080p)
 https://bl.webcaster.pro/media/playlist/free_fe8dc1b768a84b8b0333db826471f17e_hd/33_85479982/1080p/8666c3e935faf6ef47ffd601e8e48868/4821408969.m3u8
 #EXTINF:-1 group-title="Russia",START World (576p)
 https://fs.uplink.kz/start_world/mono.m3u8?token=onlinetv
-#EXTINF:-1 group-title="Russia",START World HD (1080p)
-http://str2.iptvhd.ru:8080/START_World_HD/index.m3u8
 #EXTINF:-1 group-title="Russia",Strana FM
 https://live-stranafm.cdnvideo.ru/stranafm/smil:stranafm.smil/playlist.m3u8
-#EXTINF:-1 group-title="Russia",Strashnoe HD (1080p)
-http://str2.iptvhd.ru:8080/StrashnoeHD/index.m3u8
 #EXTINF:-1 group-title="Russia",STS (576p)
 http://tshift-1.telecoma.tv/sts/index.m3u8
 #EXTINF:-1 group-title="Russia",STS HD (1080p)
@@ -1164,17 +1130,19 @@ https://iam-profi.ru/hls-live/livepkgr/_definst_/liveevent/td720.m3u8
 #EXTINF:-1 group-title="Russia",Telekanal Krasnodar (1080p)
 https://live-tvkrasnodar.cdnvideo.ru/tvkrasnodar/tvkrasnodar.sdp/playlist.m3u8
 #EXTINF:-1 group-title="Russia",Teleputeshestviya (576p)
-http://str2.iptvhd.ru:8080/Teleputeshestviya/index.m3u8
+http://31.148.48.15/Teleputeshestviya/index.m3u8
 #EXTINF:-1 group-title="Russia",Telplus (360p) [Not 24/7]
 https://streaming.astrakhan.ru/telplushd/playlist.m3u8
-#EXTINF:-1 group-title="Russia",TERRA (1080p)
-http://str2.iptvhd.ru:8080/TERRA_HD/index.m3u8
 #EXTINF:-1 group-title="Russia",Terra (576p)
 http://stream.mcquack.net/402/index.m3u8
+#EXTINF:-1 group-title="Russia",TERRA (720p)
+http://31.148.48.15/Terra_HD/index.m3u8
 #EXTINF:-1 group-title="Russia",TiJi (576p)
 http://stream.mcquack.net/111/index.m3u8
 #EXTINF:-1 group-title="Russia",TKR (1080p) [Not 24/7]
 http://live.tkr.cdnvideo.ru/tkr/tkr.sdp/playlist.m3u8
+#EXTINF:-1 group-title="Russia",TLC (1080p)
+http://stream.mcquack.net/168/index.m3u8
 #EXTINF:-1 group-title="Russia",TNT (Russia) (576p)
 http://stream.mcquack.net/135/index.m3u8
 #EXTINF:-1 group-title="Russia",TNT (Russia) HD (1080p)
@@ -1187,8 +1155,6 @@ http://05cea6e8.ucomist.net/iptv/VK7YCHHWNDD8XC/15230/index.m3u8
 https://cdn4.skygo.mn/live/disk1/THT/HLSv3-FTA/THT.m3u8
 #EXTINF:-1 group-title="Russia",TNT4 (576p)
 http://flussonic.linkintel.ru/tnt4/index.m3u8
-#EXTINF:-1 group-title="Russia",TNT4 HD (1080p)
-http://str2.iptvhd.ru:8080/TNT_4/index.m3u8
 #EXTINF:-1 group-title="Russia",TNT4 International (576p)
 https://fs.uplink.kz/tnt4/mono.m3u8?token=onlinetv
 #EXTINF:-1 group-title="Russia",TNV-Planet (576p)
@@ -1199,8 +1165,6 @@ https://user91229.clients-cdnnow.ru/hls/user91229_1.m3u8
 https://stream8.cinerama.uz/1031/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Russia",Tochka TV (576p)
 http://31.148.48.15/Tochka_TV/index.m3u8
-#EXTINF:-1 group-title="Russia",Tochka.rf (576p)
-http://str2.iptvhd.ru:8080/HD_Life/index.m3u8
 #EXTINF:-1 group-title="Russia",Tolk (720p)
 http://live-tolknews.cdnvideo.ru/tolknews/stream/playlist.m3u8
 #EXTINF:-1 group-title="Russia",Tonus (576p)
@@ -1289,8 +1253,6 @@ https://stream8.cinerama.uz/1015/tracks-v1a1/playlist.m3u8
 https://stream8.cinerama.uz/1270/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Russia",V mire zhivotnykh (1080p)
 http://stream.mcquack.net/241/index.m3u8
-#EXTINF:-1 group-title="Russia",V mire zhivotnykh HD (1080p)
-http://str2.iptvhd.ru:8080/Animal_Family_HD/index.m3u8
 #EXTINF:-1 group-title="Russia",Velvet. European Movies (1080p)
 https://cdn.rostelekom-tv.xyz/live/LQ3j0n7j0Kq4OQm8.m3u8
 #EXTINF:-1 group-title="Russia",Velvet. Golden Collection (1080p)
@@ -1331,8 +1293,6 @@ http://stream.mcquack.net/239/index.m3u8
 http://178.124.179.122:8080/HistoryHD/index.m3u8
 #EXTINF:-1 group-title="Russia",viju Nature (576p)
 https://fs.uplink.kz/viju_nature/mono.m3u8?token=onlinetv
-#EXTINF:-1 group-title="Russia",viju Nature HD (1080p)
-http://str2.iptvhd.ru:8080/Viasat_Nature_HD/index.m3u8
 #EXTINF:-1 group-title="Russia",viju TV1000 (576p)
 http://stream.mcquack.net/110/index.m3u8
 #EXTINF:-1 group-title="Russia",viju TV1000 action (576p)
@@ -1356,7 +1316,7 @@ http://stream.mcquack.net/311/index.m3u8
 #EXTINF:-1 group-title="Russia",viju+ Sport (576p)
 http://stream.mcquack.net/333/index.m3u8
 #EXTINF:-1 group-title="Russia",viju+ Sport HD (1080p)
-http://str2.iptvhd.ru:8080/Viasat_Sport/index.m3u8
+http://46.53.200.153:7777/play/a01l/index.m3u8
 #EXTINF:-1 group-title="Russia",Vital Drive
 https://autopilot.catcast.tv/content/37909/index.m3u8
 #EXTINF:-1 group-title="Russia",Vitebsk (576p)
@@ -1408,7 +1368,7 @@ https://stream8.cinerama.uz/1417/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Russia",Zvezda (1080p)
 http://51.158.144.33:2021/zvezda/index.m3u8
 #EXTINF:-1 group-title="Russia",Zvezda HD (1080p)
-http://str2.iptvhd.ru:8080/Zvezda/index.m3u8
+https://tvzvezda.bonus-tv.ru/cdn/tvzvezda/playlist.m3u8
 #EXTINF:-1 group-title="Russia",Zvezda Plus (576p)
 http://45.145.32.13:20440/zvezdaplus/index.m3u8?token=test
 #EXTINF:-1 group-title="Russia",Zvezda Plus HD (1080p)
@@ -1555,6 +1515,10 @@ https://edge1.socialsmart.tv/manisaetv/bant1/playlist.m3u8
 https://mn-nl.mncdn.com/blutv_eurod2/live.m3u8
 #EXTINF:-1 group-title="Turkiye",Euro D (720p)
 https://live.duhnet.tv/S2/HLS_LIVE/eurodnp/playlist.m3u8
+#EXTINF:-1 group-title="Turkiye",Eurosport 1 Turkiye
+https://andro.mangeinde4.lat/checklist/androstreamlivees1.m3u8
+#EXTINF:-1 group-title="Turkiye",Eurosport 2 Turkiye
+https://andro.mangeinde4.lat/checklist/androstreamlivees2.m3u8
 #EXTINF:-1 group-title="Turkiye",EuroStar
 https://mn-nl.mncdn.com/blutv_eurostar2/live.m3u8
 #EXTINF:-1 group-title="Turkiye",FB TV
@@ -1851,8 +1815,6 @@ https://tv-trtcocuk.medya.trt.com.tr/master_720.m3u8
 https://edge1.socialsmart.tv/turkhaber/bant1/playlist.m3u8
 #EXTINF:-1 group-title="Turkiye",TV 1 (720p)
 https://edge1.socialsmart.tv/tv1/bant1/playlist.m3u8
-#EXTINF:-1 group-title="Turkiye",TV 100 (Turkiye)
-https://7nyaler.streamhostingcdn.top/stream/46/index.m3u8
 #EXTINF:-1 group-title="Turkiye",TV 264 (1080p)
 https://b01c02nl.mediatriple.net/videoonlylive/mtdxkkitgbrckilive/broadcast_5ee244263fd6d.smil/playlist.m3u8
 #EXTINF:-1 group-title="Turkiye",TV 4 (720p)
