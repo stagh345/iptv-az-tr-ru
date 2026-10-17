@@ -1007,7 +1007,7 @@ http://31.148.48.15/7TV/index.m3u8
 https://2vko9pchwon.a.trbcdn.net/livemaster/8ilgc_cw63ucn03p.smil/playlist.m3u8
 #EXTINF:-1 group-title="Russia",Sevimli TV (1080p)
 https://stream8.cinerama.uz/1017/tracks-v1a1/playlist.m3u8
-#EXTINF:-1 group-title="Russia",Shanson TV (576p)
+#EXTINF:-1 group-title="Russia",Shanson TV SD (576p)
 http://catchup.videoline.ru/shanson/index.m3u8
 #EXTINF:-1 group-title="Russia",Shayan TV (1080p)
 https://shayan.bonus-tv.ru/cdn/shayan/playlist.m3u8
