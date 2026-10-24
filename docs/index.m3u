@@ -403,8 +403,6 @@ http://hls127.freeott.top:8080/1muz_HD/video.m3u8
 https://stream8.cinerama.uz/1272/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Russia",Food Network (Russia) (1080p)
 http://stream.mcquack.net/298/index.m3u8
-#EXTINF:-1 group-title="Russia",Football (720p)
-http://31.148.48.15/Futbol_HD/index.m3u8
 #EXTINF:-1 group-title="Russia",Fox (Russia) (576p)
 http://stream.mcquack.net/182/index.m3u8
 #EXTINF:-1 group-title="Russia",Fox Life (576p)
@@ -585,8 +583,6 @@ http://stream.mcquack.net/112/index.m3u8
 http://31.148.48.15/Match_Igra_HD/index.m3u8
 #EXTINF:-1 group-title="Russia",Match! Planeta (576p)
 https://fs.uplink.kz/match_planeta/mono.m3u8?token=onlinetv
-#EXTINF:-1 group-title="Russia",Match! Premier (480p) [Geo-blocked]
-http://192.162.64.99:5000/play/a02b/index.m3u8
 #EXTINF:-1 group-title="Russia",Match! Strana (720p)
 http://31.148.48.15/Match_Strana/index.m3u8
 #EXTINF:-1 group-title="Russia",Match! Ultra (1080p)
