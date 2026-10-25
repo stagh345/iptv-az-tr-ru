@@ -1401,6 +1401,8 @@ http://antalya.tvizlehd.com/live/atvavrupa.m3u8
 https://flask-api-hls-atvavrupahdtrkvz-live.onrender.com/hls_stream/master.m3u8
 #EXTINF:-1 group-title="Turkiye",BabyFirst (720p)
 https://cdn.fast.jwp.services/v1/channel/1_jB6940Ei_TvhvIHDL/manifest.m3u8
+#EXTINF:-1 group-title="Turkiye",BabyTV Turkiye [Geo-blocked]
+https://saran-live.ercdn.net/babytv/index.m3u8
 #EXTINF:-1 group-title="Turkiye",BBC Earth Turkiye
 https://nord.ayakkabiparti.lol/bbc/index.m3u8
 #EXTINF:-1 group-title="Turkiye",BBC First Turkiye
@@ -1515,6 +1517,8 @@ https://b01c02nl.mediatriple.net/videoonlylive/mtyycglqauzjhlive/broadcast_67c05
 https://edge1.socialsmart.tv/ftvturk/bant1/playlist.m3u8
 #EXTINF:-1 group-title="Turkiye",FOX
 https://mn-nl.mncdn.com/blutv_foxtv2/live.m3u8
+#EXTINF:-1 group-title="Turkiye",FX (Turkiye) [Geo-blocked]
+https://saran-live.ercdn.net/fx/index.m3u8
 #EXTINF:-1 group-title="Turkiye",Guneydogu TV (720p)
 https://edge1.socialsmart.tv/gtv/bant1/playlist.m3u8
 #EXTINF:-1 group-title="Turkiye",GZT (1080p)
@@ -1641,6 +1645,8 @@ https://nord.ayakkabiparti.lol/natgeo/index.m3u8
 https://nord.ayakkabiparti.lol/natgeowild/index.m3u8
 #EXTINF:-1 group-title="Turkiye",Natural TV (720p) [Not 24/7]
 http://broadcasttr.com:1935/naturaltv/bant1/playlist.m3u8
+#EXTINF:-1 group-title="Turkiye",NOW (720p)
+https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv_720p.m3u8
 #EXTINF:-1 group-title="Turkiye",NTV
 https://mn-nl.mncdn.com/blutv_ntv_dvr/live_720p2000000/index.m3u8
 #EXTINF:-1 group-title="Turkiye",NTV (Turkiye)
