@@ -437,6 +437,8 @@ https://hitfm.nfthost.net/hls/hitfm/live_all/playlist.m3u8
 http://stream.mcquack.net/363/index.m3u8
 #EXTINF:-1 group-title="Russia",Hollywood (1080p)
 http://31.148.48.15/MGM_HD/index.m3u8
+#EXTINF:-1 group-title="Russia",Home 4K
+http://88.212.7.14/live/test_home_uhd_tizen/playlist.m3u8
 #EXTINF:-1 group-title="Russia",Hope Channel Russia (720p)
 https://live-tvhope.cdnvideo.ru/tvhope-pull/tvhope_1/playlist.m3u8
 #EXTINF:-1 group-title="Russia",Horoshee Kino (720p)
