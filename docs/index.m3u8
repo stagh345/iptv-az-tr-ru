@@ -637,8 +637,8 @@ https://stream.smotrim.ru/hls2/doverie/playlist_3.m3u8
 https://void.greenhosting.ru/MovifyKino_Mpeg4/index.m3u8
 #EXTINF:-1 group-title="Russia",Moy mir (720p)
 https://moymir.ru/hls/onair.m3u8
-#EXTINF:-1 group-title="Russia",Moya Planeta (1080p)
-http://91.226.120.120/chid210/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Russia",Moya Planeta (720p)
+http://31.148.48.15/Moya_Planeta_HD/index.m3u8
 #EXTINF:-1 group-title="Russia",Moya stikhiya HD (1080p)
 http://stream.mcquack.net/141/index.m3u8
 #EXTINF:-1 group-title="Russia",MTRK (576p)
@@ -661,6 +661,8 @@ https://hls-tvsoyuz.cdnvideo.ru/tvsoyuz2/muzsoyuz.6fw0-58xp-acts-esy0/playlist.m
 http://31.148.5.241/kanal_20/index.m3u8
 #EXTINF:-1 group-title="Russia",Muzhskoe kino (576p)
 http://stream.mcquack.net/107/index.m3u8
+#EXTINF:-1 group-title="Russia",Muzhskoy HD (1080p)
+https://fonbet.mediacdn.ru/live/muzhskoi/playlist.m3u8
 #EXTINF:-1 group-title="Russia",Muzyka 1 [Not 24/7]
 https://kino-1.catcast.tv/content/37745/index.m3u8
 #EXTINF:-1 group-title="Russia",Muzyka Kino [Not 24/7]
@@ -677,6 +679,8 @@ http://stream.mcquack.net/419/index.m3u8
 http://185.23.80.23:8080/NANO_HD/index.m3u8
 #EXTINF:-1 group-title="Russia",Nash Kinopokaz HD (576p)
 http://46.53.200.153:7777/play/SRT_Nash_kinopokaz/index.m3u8
+#EXTINF:-1 group-title="Russia",Nasha Tema (1080p)
+https://fonbet.mediacdn.ru/live/nashatema/playlist.m3u8
 #EXTINF:-1 group-title="Russia",Nashe HD (576p)
 http://stream.mcquack.net/217/index.m3u8
 #EXTINF:-1 group-title="Russia",Nashe Lubimoe Kino Ukraine (1080p)
@@ -1111,6 +1115,8 @@ https://streaming.astrakhan.ru/telplushd/playlist.m3u8
 http://stream.mcquack.net/402/index.m3u8
 #EXTINF:-1 group-title="Russia",TERRA (720p)
 http://31.148.48.15/Terra_HD/index.m3u8
+#EXTINF:-1 group-title="Russia",The Explorers (1080p)
+https://sofast-yupptv.vgcdn.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/4804aca3-dd54-43d1-8caa-0b836a76d9e9/manifest.m3u8
 #EXTINF:-1 group-title="Russia",TiJi (576p)
 http://flussonic.linkintel.ru/tiji/index.m3u8
 #EXTINF:-1 group-title="Russia",TKR (1080p) [Not 24/7]
@@ -1303,6 +1309,8 @@ https://qcpdqumitwf.a.trbcdn.net/livemastersrt/pr4mw_lvie-vmesterf-srt.smil/play
 http://tele2dvrnat01-02.cdnvideo.ru/stream/NAT_Volga/hls/1920x1080@4504/playlist.m3u8
 #EXTINF:-1 group-title="Russia",Volgograd 24 (1080p)
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/volgograd/russia1-hd/index.m3u8
+#EXTINF:-1 group-title="Russia",Volleyball (1080p)
+https://fonbet.mediacdn.ru/live/volleyball/playlist.m3u8
 #EXTINF:-1 group-title="Russia",Voprosy i Otvety (576p)
 http://stream.mcquack.net/76/index.m3u8
 #EXTINF:-1 group-title="Russia",Vostok 24 (1080p)
