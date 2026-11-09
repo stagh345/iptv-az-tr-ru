@@ -757,8 +757,6 @@ http://stream.mcquack.net/301/index.m3u8
 https://mhd116.iptv2022.com/x/t4hRFz1R89Q6kjp3CL3WVQ,1792610109/streaming/sledstvie_veli_hd/324/1/index.m3u8
 #EXTINF:-1 group-title="Russia",NTV Style (576p)
 https://cdn.ntv.ru/th_style/playlist.m3u8
-#EXTINF:-1 group-title="Russia",NTV Svoya igra (1080p)
-https://cdn-dvr.ntv.ru/th_svoya_igra/index.m3u8
 #EXTINF:-1 group-title="Russia",NTV Vitrina (720p)
 https://cdn.ntv.ru/vitrina/index.m3u8
 #EXTINF:-1 group-title="Russia",NTV-Hit (576p)
@@ -1445,6 +1443,8 @@ https://live.artidijitalmedya.com/artidijital_ciftcitv/ciftcitv/playlist.m3u8
 https://host.onlineradyotv.net:8081/cine5/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Turkiye",CNBC-e
 https://hnpsechtsc.turknet.ercdn.net/xpnvudnlsv/cnbc-e/cnbc-e.m3u8
+#EXTINF:-1 group-title="Turkiye",CNN Turk (1080p)
+http://85.117.61.84/cnnturk/index.m3u8
 #EXTINF:-1 group-title="Turkiye",CNN Türk
 https://live.duhnet.tv/S2/HLS_LIVE/cnnturknp/track_4_1000/playlist.m3u8
 #EXTINF:-1 group-title="Turkiye",Deniz Postasi TV (720p) [Not 24/7]
