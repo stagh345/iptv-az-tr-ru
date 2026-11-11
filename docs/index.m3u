@@ -701,8 +701,6 @@ http://31.148.48.15/Nauka_2.0/index.m3u8
 http://stream.mcquack.net/403/index.m3u8
 #EXTINF:-1 group-title="Russia",Nevskiy (1080p)
 https://cdn-dvr.ntv.ru/Nevskiy/index.m3u8
-#EXTINF:-1 group-title="Russia",New Channel Pop! (480p)
-https://vodcdn.bamboo-cloud.com/livehls/6ab37c6c7e057f9063071c85/master.m3u8
 #EXTINF:-1 group-title="Russia",Next TV (1080p) [Not 24/7]
 http://gohoski.fvds.ru:3000/mediabay/601/playlist.m3u8
 #EXTINF:-1 group-title="Russia",Nick Jr. (Russia) (576p)
