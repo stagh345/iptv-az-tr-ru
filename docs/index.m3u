@@ -227,16 +227,14 @@ https://bl.rutube.ru/livestream/c9e26bf5c003fd8d477200065ca1a05f/index.m3u8?e=20
 https://12channel.bonus-tv.ru/cdn/12channel/playlist.m3u8
 #EXTINF:-1 group-title="Russia",Channel 5 (Russia) (576p)
 http://31.148.5.241/kanal_5/index.m3u8
-#EXTINF:-1 group-title="Russia",Channel 5 International (576p)
-http://178.134.1.158:8081/5channel/index.m3u8
+#EXTINF:-1 group-title="Russia",Channel 5 International (576i)
+https://cdn4.skygo.mn/live/disk1/Channel_5/HLSv3-FTA/Channel_5.m3u8
 #EXTINF:-1 group-title="Russia",Channel 7 (Kazakhstan) (576p)
 http://stream.mcquack.net/27/index.m3u8
 #EXTINF:-1 group-title="Russia",Channel 8 (Russia) (576p)
 http://45.11.139.43:8555/8kanal/index.m3u8
 #EXTINF:-1 group-title="Russia",Channel 8 International (576p) [Geo-blocked]
 http://live-11cinema.cdnvideo.net/11cinemanet/11cinemanet/playlist.m3u8
-#EXTINF:-1 group-title="Russia",Channel 8 Krasnoyarsk HD (1080p)
-https://tshift-1.telecoma.tv/8channel/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 group-title="Russia",Channel 8 Novosibirsk (480i)
 https://live-8knsk.cdnvideo.ru/8knsk/stream1/playlist.m3u8
 #EXTINF:-1 group-title="Russia",Channel 9 (Israel) (1080p)
@@ -254,7 +252,7 @@ https://fs.uplink.kz/perviy_kanal_evrasia/mono.m3u8?token=onlinetv
 #EXTINF:-1 group-title="Russia",Channel-16 (406p) [Not 24/7]
 http://serv25.vintera.tv:8081/test/k16/playlist.m3u8
 #EXTINF:-1 group-title="Russia",Che! (576p)
-http://176.118.197.101/Che/index.m3u8
+http://flussonic.linkintel.ru/che/index.m3u8
 #EXTINF:-1 group-title="Russia",Cinema (Russia) (576p)
 http://flussonic.linkintel.ru/cinema/index.m3u8
 #EXTINF:-1 group-title="Russia",City Eden AutoGid [Not 24/7]
@@ -508,8 +506,6 @@ http://93.170.254.17/Kinomiks/index.m3u8
 #EXTINF:-1 group-title="Russia",Kinopokaz (576p)
 http://stream.mcquack.net/64/index.m3u8
 #EXTINF:-1 group-title="Russia",Kinopremyera (1080p)
-http://5.188.159.128:8070/KINOPREMIERA/index.m3u8
-#EXTINF:-1 group-title="Russia",Kinopremyera HD (1080p)
 https://fs.uplink.kz/kinopremiera_hd/mono.m3u8?token=onlinetv
 #EXTINF:-1 group-title="Russia",KinoSat (576p)
 http://31.148.48.15/Kineko/index.m3u8
@@ -871,8 +867,6 @@ http://176.118.197.101/RBK/index.m3u8
 http://s55766.cdn.ngenix.net/s55766-media-origin/rline_high/index.m3u8
 #EXTINF:-1 group-title="Russia",REN TV (576p)
 http://31.148.5.241/kanal_11/index.m3u8
-#EXTINF:-1 group-title="Russia",REN TV International (576p)
-http://178.134.1.158:8081/RENTV/index.m3u8
 #EXTINF:-1 group-title="Russia",Retro (576p)
 http://176.118.197.101/Retro/index.m3u8
 #EXTINF:-1 group-title="Russia",Rika TV (480p)
@@ -1061,8 +1055,6 @@ https://live-stranafm.cdnvideo.ru/stranafm/smil:stranafm.smil/playlist.m3u8
 http://31.148.5.241/kanal_13/index.m3u8
 #EXTINF:-1 group-title="Russia",STS HD (1080p)
 http://stream.mcquack.net/138/index.m3u8
-#EXTINF:-1 group-title="Russia",STS International (576p)
-http://178.134.1.158:8081/CTC/index.m3u8
 #EXTINF:-1 group-title="Russia",STS kids (1080p)
 http://31.148.48.15/STS_Kids_HD/index.m3u8
 #EXTINF:-1 group-title="Russia",STS Love (576i)
@@ -1583,6 +1575,8 @@ https://edge.taksimbilisim.com/kocaelitv/bant1/playlist.m3u8
 https://live.artidijitalmedya.com/artidijital_konyaolaytv/konyaolaytv/playlist.m3u8
 #EXTINF:-1 group-title="Turkiye",Kral Pop TV (720p)
 https://dogus-live.daioncdn.net/kralpoptv/playlist.m3u8
+#EXTINF:-1 group-title="Turkiye",KRT (1080p)
+https://raw.githubusercontent.com/yaskar661-lgtm/stream/refs/heads/main/filbox/krthd.m3u8
 #EXTINF:-1 group-title="Turkiye",Kurdistan TV (720p) [Not 24/7]
 https://5a3ed7a72ed4b.streamlock.net/live/SMIL:myStream.smil/playlist.m3u8
 #EXTINF:-1 group-title="Turkiye",Lalegul TV (1080p)
