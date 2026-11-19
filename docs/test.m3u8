@@ -1,10 +1,10 @@
 #EXTM3U
-#EXTINF:-1 group-title="Azerbaijan",APA Tv (1080p)
+#EXTINF:-1 group-title="Azerbaijan",APA Tv
 http://stream.apa.tv/apastream/index.m3u8
-#EXTINF:-1 group-title="Azerbaijan",Ayaz TV (720p)
-https://janya-ayaztv.vgcdn.net/ptnr-WebApp/title-Ayaz_TV/v1/vglive-sk-934820/main.m3u8
+#EXTINF:-1 group-title="Azerbaijan",Ayaz TV
+https://janya-ayaztv.vgcdn.net/ptnr-WebApp/title-Ayaz_TV/v1/vglive-sk-934820/720p/720p.m3u8
 #EXTINF:-1 group-title="Azerbaijan",Az Star TV (1080p)
-https://live.livestreamtv.ca/azstar/amlst:azstar/playlist.m3u8
+http://live.azstartv.com/azstar/smil:azstar.smil/playlist.m3u8
 #EXTINF:-1 group-title="Turkiye",24 TV
 https://mn-nl.mncdn.com/kanal24/smil:kanal24.smil/chunklist_b896000.m3u8
 #EXTINF:-1 group-title="Turkiye",24 TV (720p)
