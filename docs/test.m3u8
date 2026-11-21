@@ -1,6 +1,6 @@
 #EXTM3U
-#EXTINF:-1 group-title="Azerbaijan",APA Tv
-http://stream.apa.tv/apastream/index.m3u8
+#EXTINF:-1 group-title="Azerbaijan",ARB 24
+https://operativmm.az/tvs/arb24/stream/index.m3u8
 #EXTINF:-1 group-title="Azerbaijan",Ayaz TV
 https://janya-ayaztv.vgcdn.net/ptnr-WebApp/title-Ayaz_TV/v1/vglive-sk-934820/720p/720p.m3u8
 #EXTINF:-1 group-title="Azerbaijan",Az Star TV (1080p)

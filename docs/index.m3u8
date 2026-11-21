@@ -1,6 +1,6 @@
 #EXTM3U
-#EXTINF:-1 group-title="Azerbaijan",APA Tv
-http://stream.apa.tv/apastream/index.m3u8
+#EXTINF:-1 group-title="Azerbaijan",ARB 24
+https://operativmm.az/tvs/arb24/stream/index.m3u8
 #EXTINF:-1 group-title="Azerbaijan",Ayaz TV
 https://janya-ayaztv.vgcdn.net/ptnr-WebApp/title-Ayaz_TV/v1/vglive-sk-934820/720p/720p.m3u8
 #EXTINF:-1 group-title="Azerbaijan",Az Star TV (1080p)
@@ -13,8 +13,8 @@ https://edge1.socialsmart.tv/aznews/smil/playlist.m3u8
 https://rtmp.baku.tv/hls/bakutv.m3u8
 #EXTINF:-1 group-title="Azerbaijan",CBC Sport [Geo-blocked]
 https://cbcsports-live.lg.mncdn.com/cbcsports_live/cbcsports/playlist.m3u8
-#EXTINF:-1 group-title="Azerbaijan",EL TV (260p)
-http://85.132.53.162:1935/live/eltv/playlist.m3u8
+#EXTINF:-1 group-title="Azerbaijan",EL TV [Not 24/7]
+https://live.eltv.az/live/eltv/playlist.m3u8
 #EXTINF:-1 group-title="Azerbaijan",GunAz TV
 https://tv.gunaz.tv/hls/live.m3u8
 #EXTINF:-1 group-title="Azerbaijan",Ictimai TV [Geo-blocked]
@@ -291,7 +291,7 @@ http://stream.mcquack.net/312/index.m3u8
 https://cdn.1tvcrimea.ru/24tvcrimea.m3u8
 #EXTINF:-1 group-title="Russia",Current Time TV (1080p)
 https://rfe-ingest.akamaized.net/hls/live/2033043/tvmc05/master.m3u8
-#EXTINF:-1 group-title="Russia",Da Vinci (Russia) (576p)
+#EXTINF:-1 group-title="Russia",Da Vinci (576p)
 http://116.90.120.149:8000/play/a0s6/index.m3u8
 #EXTINF:-1 group-title="Russia",Dacha (1080p)
 https://dash2.antik.sk/live/test_dacha_tv_atktv/playlist.m3u8
@@ -1407,8 +1407,8 @@ https://saran-live.ercdn.net/babytv/index.m3u8
 https://nord.ayakkabiparti.lol/bbc/index.m3u8
 #EXTINF:-1 group-title="Turkiye",BBC First Turkiye
 http://88.212.7.14/live/bbc_first/index.m3u8
-#EXTINF:-1 group-title="Turkiye",beIN Sports 1 Turk
-http://57.129.0.61:1990/stream/117/index.m3u8
+#EXTINF:-1 group-title="Turkiye",beIN Sports 1 Turk (1080p)
+https://vuvuu-geil-m3u8.yaskar661.workers.dev/?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F300113394ceebba66c8ad
 #EXTINF:-1 group-title="Turkiye",Benguturk TV (1080p)
 http://185.234.111.229:8000/play/a05u
 #EXTINF:-1 group-title="Turkiye",Beyaz TV (720p) [Not 24/7]
@@ -1745,8 +1745,8 @@ https://blutv-test-live.ercdn.net/test/trt1_1080p.m3u8
 https://tv-trt1.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 group-title="Turkiye",TRT 2 (1440p) [Geo-blocked]
 https://tv-trt2.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 group-title="Turkiye",TRT 3 (720p)
-https://tv-trt3.live.trt.com.tr/master.m3u8
+#EXTINF:-1 group-title="Turkiye",TRT 3 (1080p)
+https://vuvuu-geil-m3u8.yaskar661.workers.dev/?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F418740351278f04c94b243
 #EXTINF:-1 group-title="Turkiye",TRT Arabi (1080p) [Not 24/7]
 https://tv-trtarabi.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 group-title="Turkiye",TRT Avaz (720p)
