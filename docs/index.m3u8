@@ -1,36 +1,18 @@
 #EXTM3U
 #EXTINF:-1 group-title="Azerbaijan",ARB 24
 https://operativmm.az/tvs/arb24/stream/index.m3u8
-#EXTINF:-1 group-title="Azerbaijan",Ayaz TV
-https://janya-ayaztv.vgcdn.net/ptnr-WebApp/title-Ayaz_TV/v1/vglive-sk-934820/720p/720p.m3u8
 #EXTINF:-1 group-title="Azerbaijan",Az Star TV (1080p)
 http://live.azstartv.com/azstar/smil:azstar.smil/playlist.m3u8
 #EXTINF:-1 group-title="Azerbaijan",Az TV
 https://operativmm.az/tvs/az/stream9/index.m3u8
 #EXTINF:-1 group-title="Azerbaijan",Aznews TV (720p) [Not 24/7]
 https://edge1.socialsmart.tv/aznews/smil/playlist.m3u8
-#EXTINF:-1 group-title="Azerbaijan",Baku.TV
-https://rtmp.baku.tv/hls/bakutv.m3u8
 #EXTINF:-1 group-title="Azerbaijan",CBC Sport [Geo-blocked]
 https://cbcsports-live.lg.mncdn.com/cbcsports_live/cbcsports/playlist.m3u8
-#EXTINF:-1 group-title="Azerbaijan",EL TV [Not 24/7]
-https://live.eltv.az/live/eltv/playlist.m3u8
-#EXTINF:-1 group-title="Azerbaijan",GunAz TV
-https://tv.gunaz.tv/hls/live.m3u8
-#EXTINF:-1 group-title="Azerbaijan",Ictimai TV [Geo-blocked]
-https://live.itv.az/itv.m3u8
 #EXTINF:-1 group-title="Azerbaijan",Kanal S
 https://lives.atv.az:5443/KANAL-S/streams/kanals.m3u8
-#EXTINF:-1 group-title="Azerbaijan",Kapaz TV [Geo-blocked]
-http://85.132.78.122:8050/hls/stream/index.m3u8
-#EXTINF:-1 group-title="Azerbaijan",KN Music TV
-https://cdn4.yayin.com.tr/kntv/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Azerbaijan",Vilayet TV
-https://nl.livekadeh.com/hls2/vilayet.m3u8
 #EXTINF:-1 group-title="Azerbaijan",West Azerbaijan TV
 https://ncdn.telewebion.ir/azarbayjangharbi/live/playlist.m3u8
-#EXTINF:-1 group-title="Azerbaijan",Xezer TV
-https://xezer.tvstream.az/hls/stream/main_stream.m3u8
 #EXTINF:-1 group-title="Russia",+TV (576p) [Geo-blocked]
 https://stream.plustv.by/plustv-web/plustv/playlist.m3u8
 #EXTINF:-1 group-title="Russia",.black (576p)
@@ -77,7 +59,7 @@ https://sitv.ru/hls/s86.m3u8
 http://31.148.48.15/A1/index.m3u8
 #EXTINF:-1 group-title="Russia",A2 (576p)
 http://31.148.48.15/A2/index.m3u8
-#EXTINF:-1 group-title="Russia",Abaza TV (1080p)
+#EXTINF:-1 group-title="Russia",Abaza TV
 https://public.apsny.camera/tv_abaza_tv_to_site/index.m3u8
 #EXTINF:-1 group-title="Russia",Afontovo
 https://stream.afontovo.ru/hd.m3u8
@@ -209,8 +191,8 @@ http://88.218.242.237:8001/Cartoon_Classics
 http://45.132.87.69:8080/cartoon_network/index.m3u8
 #EXTINF:-1 group-title="Russia",Cartoonito CEE
 http://193.33.39.108:9019/play/a00t
-#EXTINF:-1 group-title="Russia",CGTN Russian (1080p)
-https://russian-livews.cgtn.com/hls/LSvexABhNipibK5KRuUkvHZ7220802LSTeze9o8tdFXMHsb1VosgoT220802cd/playlist.m3u8
+#EXTINF:-1 group-title="Russia",CGTN Russian (576p)
+https://news.cgtn.com/resource/live/russian/cgtn-r.m3u8
 #EXTINF:-1 group-title="Russia",Channel 10 (Russia) (576i)
 https://bl.rutube.ru/livestream/c9e26bf5c003fd8d477200065ca1a05f/index.m3u8?e=2072611029&s=eqlTXebDP9wSWTZgre6BwQ&scheme=https
 #EXTINF:-1 group-title="Russia",Channel 12 (1080p)
