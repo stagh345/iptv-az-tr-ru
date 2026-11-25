@@ -17,6 +17,8 @@ https://lives.atv.az:5443/KANAL-S/streams/kanals.m3u8
 https://cdn4.yayin.com.tr/kntv/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Azerbaijan",West Azerbaijan TV (576p)
 https://ncdn.telewebion.ir/azarbayjangharbi/live/playlist.m3u8
+#EXTINF:-1 group-title="Azerbaijan",Xezer TV (1080p)
+https://xezer.tvstream.az/hls/stream/index.m3u8
 #EXTINF:-1 group-title="Russia",+TV (576p) [Geo-blocked]
 https://stream.plustv.by/plustv-web/plustv/playlist.m3u8
 #EXTINF:-1 group-title="Russia",.black (576p)
@@ -1249,7 +1251,7 @@ https://stream.smotrim.ru/hls2/vesti_fm/playlist_4.m3u8
 http://serv24.vintera.tv:8081/vetta/vetta_office/playlist.m3u8
 #EXTINF:-1 group-title="Russia",Viasat Epic Drama Ukraine (576p)
 http://195.189.60.253/118/index.m3u8
-#EXTINF:-1 group-title="Russia",Viasat Kino (576p)
+#EXTINF:-1 group-title="Russia",Viasat Kino (Ukraine) (576p)
 http://dtv.vol.net.ua/Viasat_Kino/index.m3u8
 #EXTINF:-1 group-title="Russia",Viasat Kino Action (576p)
 http://dtv.vol.net.ua/Viasat_Kino_Action_HD/index.m3u8
@@ -1419,6 +1421,8 @@ https://vuvuu-geil-m3u8.yaskar661.workers.dev/?url=https%3A%2F%2Fvavoo.to%2Fvavo
 http://185.234.111.229:8000/play/a05u
 #EXTINF:-1 group-title="Turkiye",Beyaz TV (720p) [Not 24/7]
 https://mn-nl.mncdn.com/blutv_beyaztv2/live.m3u8
+#EXTINF:-1 group-title="Turkiye",Bi Kanal (1080p)
+https://bikanal-live.ercdn.net/bikanal/bikanal.m3u8
 #EXTINF:-1 group-title="Turkiye",Bir TV (720p)
 https://edge.taksimbilisim.com/birtv/bant1/playlist.m3u8
 #EXTINF:-1 group-title="Turkiye",Bloomberg HT
@@ -1635,10 +1639,8 @@ http://playhdnewjj.xyz:8080/recc121412/KVqfhtdJ2nQ7/174
 https://edge1.socialsmart.tv/muglaturk/bant1/playlist.m3u8
 #EXTINF:-1 group-title="Turkiye",MyZen TV (720p)
 https://r.eu.cdn-redge.media/livehls/oeu/mt/live/myzen_tv/live.livx/playlist.m3u8
-#EXTINF:-1 group-title="Turkiye",National Geographic (Turkiye)
-https://nord.ayakkabiparti.lol/natgeo/index.m3u8
-#EXTINF:-1 group-title="Turkiye",National Geographic Wild (Turkiye)
-https://nord.ayakkabiparti.lol/natgeowild/index.m3u8
+#EXTINF:-1 group-title="Turkiye",National Geographic Wild (Turkiye) (1080p) [Geo-blocked]
+https://saran-live.ercdn.net/natgeowild/index.m3u8
 #EXTINF:-1 group-title="Turkiye",Natural TV (720p) [Not 24/7]
 http://broadcasttr.com:1935/naturaltv/bant1/playlist.m3u8
 #EXTINF:-1 group-title="Turkiye",NOW (720p)
@@ -1659,6 +1661,8 @@ https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e17
 https://live.artidijitalmedya.com/artidijital_olayturk/olayturk/playlist.m3u8
 #EXTINF:-1 group-title="Turkiye",On4 TV (1080p)
 https://edge1.socialsmart.tv/on4/bant1/playlist.m3u8
+#EXTINF:-1 group-title="Turkiye",Pati TV (1080p)
+https://patitv.radyotelekomtv.com:3958/live/patitvlive.m3u8
 #EXTINF:-1 group-title="Turkiye",Persiana Turkiye
 https://turkhls.persiana.live/hls/stream.m3u8
 #EXTINF:-1 group-title="Turkiye",Power Dance (1080p)
